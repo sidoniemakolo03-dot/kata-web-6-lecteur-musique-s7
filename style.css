@@ -164,10 +164,10 @@ h2 {
 /* ---------- TODO 5 — La barre de contrôle ---------- */
 
 .progression {
-
-  display: flex;
+  
   align-items: center;
   gap: 8px;
+  display: flex;
 }
 
 .barre {
@@ -175,9 +175,10 @@ h2 {
 
 }
 .boutons {
- display: justify-content;
+ justify-content: center;
  align-items: center;
  gap: 24px;
+ display: flex;
 }
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
