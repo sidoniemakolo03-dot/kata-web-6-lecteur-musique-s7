@@ -150,9 +150,10 @@ h2 {
 
 /* ---------- TODO 4 — Une piste de la playlist ---------- */
 .piste {
+  display: flex;
   align-items: center;
   gap: 12px;
-  display: flex;
+  
 }
 
 .piste-infos {
