@@ -149,7 +149,15 @@ h2 {
 }
 
 /* ---------- TODO 4 — Une piste de la playlist ---------- */
+.piste {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
 
+.piste-infos {
+  flex-grow: 1;
+}
 
 
 /* ---------- TODO 5 — La barre de contrôle ---------- */
