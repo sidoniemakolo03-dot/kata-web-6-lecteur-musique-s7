@@ -50,6 +50,8 @@ h2 {
   font-weight: 800;
   font-size: 1.2rem;
   color: #b9a7ff;
+  flex-grow: 1;
+
 }
 
 .artiste,
@@ -138,7 +140,13 @@ h2 {
 
 /* ---------- TODO 3 — Le morceau en cours ---------- */
 
-
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
 
 /* ---------- TODO 4 — Une piste de la playlist ---------- */
 
