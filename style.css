@@ -180,5 +180,18 @@ h2 {
  gap: 24px;
  display: flex;
 }
+.contenu {
+  display: flex;
+  flex-direction: column;
+}
 
 /* ---------- TODO 6 — Grand écran (768px et plus) ---------- */
+@media (min-width: 768px) {
+  .contenu {
+    flex-direction: row;
+  }
+
+  .playlist {
+    flex-grow: 1;
+  }
+}
